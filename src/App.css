@@ -1,0 +1,233 @@
+.nav {
+  display: flex;
+  padding: 5px 20px;
+
+  /* position: sticky; */
+  top: 0;
+  z-index: 99;
+  justify-content: space-between;
+  box-shadow: 0px 0px 3px #ccc;
+}
+
+/* .facebook{
+    height: 40px;
+    width: 40px;
+} */
+.nav-left img {
+  height: 40px;
+}
+.nav-left {
+  margin: 0px 0px;
+  display: flex;
+  flex-direction: row;
+}
+
+.facebook {
+  margin-top: 5px;
+}
+
+.search {
+  display: flex;
+  align-items: center;
+  background-color: whitesmoke;
+  border-radius: 20px;
+  padding: 0px 10px;
+  height: 40px;
+  margin-top: 5px;
+}
+.search input {
+  border: 0;
+  outline: 0;
+  background-color: transparent;
+  min-width: 200px;
+}
+
+.nav-middle {
+  display: flex;
+  align-items: center;
+  justify-content: center;
+}
+.options {
+  padding: 5px 40px;
+  cursor: pointer;
+}
+
+.options svg {
+  color: white;
+}
+
+.options-active::after {
+  content: "";
+  position: absolute;
+  height: 3px;
+  left: 0px;
+  right: 0px;
+  bottom: -5px;
+}
+
+.nav-right {
+  display: flex;
+  align-items: center;
+}
+.info {
+  display: flex;
+  align-items: center;
+}
+.info h5 {
+  margin-right: 20px;
+}
+.info .MuiAvatar-root {
+  width: 30px;
+  height: 30px;
+  margin: 10px;
+}
+
+.nav-right .MuiButtonBase-root {
+  width: 40px;
+  height: 40px;
+  margin: 0px 5px;
+  background-color: whitesmoke;
+  color: #000;
+}
+
+.login-page {
+  display: flex;
+  flex-direction: row;
+  place-items: center;
+
+  align-items: center;
+  height: 100vh;
+  background-color: rgb(233, 233, 233);
+}
+
+.img {
+  width: 200px;
+}
+.login {
+  width: 450px;
+  margin: 0px 20px;
+  margin-left: 15%;
+  padding: 20px;
+  /* text-align: center; */
+  border-radius: 10px;
+}
+.head2 {
+  font-weight: 400;
+}
+.button {
+  background-color: #1778f2;
+  border: 0;
+  outline: 0;
+  font-size: 16px;
+  width: 95%;
+  color: #fff;
+  border-radius: 5px;
+  padding: 15px 20px;
+  text-transform: uppercase;
+  cursor: pointer;
+  margin-top: 20px;
+  letter-spacing: 2px;
+}
+.form-container {
+  width: 400px;
+  min-height: 40vh;
+  background-color: #fff;
+  margin: 0px 20px;
+  box-shadow: 0px 0px 5px rgb(182, 177, 177);
+  padding: 20px;
+
+  /* text-align: center; */
+  border-radius: 10px;
+}
+.input {
+  height: 30px;
+  padding: 10px;
+  padding-left: 10px;
+  width: 90%;
+  margin-bottom: 10px;
+  border: 1px lightslategrey solid;
+  border-radius: 5px;
+}
+.text {
+  text-align: center;
+  padding: 20px;
+  color: #1778f2;
+  text-decoration: none;
+}
+.bt {
+  text-align: center;
+  padding: 20px;
+}
+.create {
+  padding: 15px;
+  width: 55%;
+  color: #fff;
+  border: 0;
+  border-radius: 5px;
+  background-color: rgb(50, 205, 50);
+  font-weight: bold;
+  font-size: 17px;
+}
+.head1 {
+  font-size: 55px;
+  color: #1778f2;
+}
+.small-container {
+  display: grid;
+  place-items: center;
+  background-color: rgb(233, 233, 233);
+}
+.box {
+  position: "absolute";
+  top: "50%";
+  left: "50%";
+  transform: "translate(-50%, -50%)";
+  width: 400;
+  height: 280;
+  background-color: #fff;
+  border: 0px;
+  border-radius: 5px;
+  color: gray;
+  box-shadow: 24px;
+  padding: 4px;
+}
+.text-box {
+  display: flex;
+}
+.select {
+  height: 30px;
+  width: 120px;
+  margin: 5px;
+  border: 1px grey solid;
+  border-radius: 5px;
+}
+.sign {
+  padding: 10px;
+  width: 55%;
+  color: #fff;
+  border: 0;
+  border-radius: 5px;
+  background-color: rgb(50, 205, 50);
+  font-weight: bold;
+  font-size: 17px;
+}
+.forgotten-container {
+  padding: 5px;
+  margin: 15px;
+}
+.pass {
+  height: 30px;
+  width: 200px;
+  margin-bottom: 10px;
+}
+
+.btn {
+  padding: 15px;
+  width: 200px;
+  color: #fff;
+  border: 0;
+  border-radius: 5px;
+  background-color: rgb(50, 205, 50);
+  font-weight: bold;
+  font-size: 17px;
+}
